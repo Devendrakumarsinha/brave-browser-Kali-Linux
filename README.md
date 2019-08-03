@@ -11,3 +11,7 @@ sudo apt update
 
 sudo apt install brave-browser
 ```
+# Dirrect install
+```bash
+curl -s https://raw.githubusercontent.com/nu11secur1ty/brave-browser-Kali-Linux/master/kukurus.sh | bash
+```
