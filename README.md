@@ -8,12 +8,12 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ trusty ma
 sudo apt update
 sudo apt install brave-browser
 ```
-# Dirrect install
+# Direct install
 ```bash
 curl -s https://raw.githubusercontent.com/nu11secur1ty/brave-browser-Kali-Linux/master/kukurus.sh | bash
 ```
 # Config file
-- Add this in to a `/usr/bin/brave-browser-stable`
+- Add this in to  `/usr/bin/brave-browser-stable`
 
 ```bash
 #!/bin/bash
@@ -66,3 +66,5 @@ exec 2> >(exec cat >&2)
 # Note: exec -a below is a bashism.
 exec -a "$0" "$HERE/brave" "$@" --no-sandbox
 ```
+
+# Feel secure with nu11secur1ty ;)
